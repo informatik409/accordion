@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.accordion{
+    padding: 10px 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font: bold 20px Arial;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.text{
+    padding: 15px;
+    display: none;
+}
+
+.accordion:hover{
+    background-color: grey;
+    color: white;
+}
+
+.text.show{
+    display: block;
+}
+.text img{
+    width: 200px;
+    height: 100px;
+}
